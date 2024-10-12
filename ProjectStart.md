@@ -20,3 +20,7 @@ https://tree.taiga.io/project/crowxar-template/epics
 poetry new my-project
 ```
 
+```
+poetry install
+```
+add `--no-dev` to exclude the development dependencies for running the project in a production environment
