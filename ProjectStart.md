@@ -17,10 +17,19 @@ https://tree.taiga.io/ to manage the project
 https://tree.taiga.io/project/crowxar-template/epics
 
 ```
-poetry new my-project
-```
+poetry init
+poetry add django
+cd src 
 
+poetry shell
+django-admin startproject <ProjectName> .
+
+test with: python manage.py runserver
+
+python manage.py startapp <AppName>
+
+Run the server from src directory:
+python manage.py runserver
+
+Follow the tutorial here: https://docs.djangoproject.com/en/5.1/intro/tutorial01/
 ```
-poetry install
-```
-add `--no-dev` to exclude the development dependencies for running the project in a production environment

@@ -1,18 +1,15 @@
 [tool.poetry]
-name = "gittemplate"
+name = "kindlingcalculator"
 version = "0.1.0"
-description = "Template to be used to start projects from GitHub"
+description = "Django based calculator"
 authors = ["Crowxar"]
-license = "MIT License"
+license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+django = "^5.1.2"
 
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.3.3"
-hypothesis = "^6.114.1"
 
 [build-system]
 requires = ["poetry-core"]
